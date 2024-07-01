@@ -339,7 +339,7 @@
 <p>To quantify the effect of these improvements, we measured the relative difference in scores (so-called ablation analysis) between the Llama 3 Swallow 8B model and the model trained without Cosmopedia, Laboro ParaCorpus, and OpenWebMath, respectively. The underlying idea is that, if the score decreases after removing a particular text, it may indicate its contribution to the task. We show the results below. First, we find that Cosmopedia contributes to Japanese-English arithmetic reasoning (MGSM, GSM8K) and code generation (JHumanEval, HumanEval). Cosmopedia used lecture outlines, math texts, source code, and so on as writing material and synthesized a ``textbook-like’’ text by using Mixtral-8x7B-Instruct. The effectiveness of textbook-like texts has been reported (Abdin et al., 2024; Penedo et al., 2024), and our analysis is consistent with these findings. Next, Laboro ParaCorpus contributes to machine translation (WMT20), and we were able to replicate the bilingual text validity (Fujii et al., 2024) reported for the first version of Swallow. Finally, OpenWebMath made only a minor contribution to code generation, probably due to its inclusion in Cosmopedia’s writing material.</p>
 
 <p style="text-align: center;">
-  <img src="images/llama3-swallow-corpus-ablation-study.png" alt="Ablation study on datasets for continual pre-training" width="75%" />
+  <img src="images/llama3-swallow-corpus-ablation-study-en.png" alt="Ablation study on datasets for continual pre-training" width="75%" />
 </p>
 
 <h3 id="instruction-tuning-with-chat-vector">Instruction tuning with chat vector</h3>
