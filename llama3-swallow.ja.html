@@ -229,7 +229,7 @@
 
 <p><img src="images/llama3-swallow-instruction-ja.png" alt="指示チューニングの効果" title="指示チューニングの効果" /></p>
 
-<p>最後に、Swallow-7b-instruct-v0.1（初代Swallowの指示チューニング改良版）とLlama 3 Swallow 8B Instructを比較してみましょう。モデルのパラメータ数が1B増えていますので単純な比較はできませんが、下のレーダーチャートが示すように、Llama 3 Swallow 8B Instructがほぼ全てのタスクで優れています。後で説明するように、継続事前学習コーパスの改良や指示チューニングデータの改良も性能向上の要因の一つだと思いますが、Llama 2からLlama 3での性能向上によるところが大きいと思います。</p>
+<p>最後に、Swallow-7b-instruct-v0.1（初代Swallowの指示チューニング改良版）とLlama 3 Swallow 8B Instructを比較してみましょう。モデルのパラメータ数が1B増えていますので単純な比較はできませんが、下のレーダーチャートが示すように、Llama 3 Swallow 8B Instructがほぼ全てのタスクで優れています。後で説明するように、継続事前学習コーパスの改良は性能向上の要因の一つだと思いますが、Llama 2からLlama 3での性能向上によるところが大きいと思います。</p>
 
 <p><img src="images/swallow-2to3-ja.png" alt="Swallow (Llama 2) からLlama 3 Swallowでの性能向上" title="Swallow (Llama 2) からLlama 3 Swallowでの性能向上" /></p>
 
@@ -344,6 +344,19 @@
 
 <p style="text-align: center;">
   <img src="images/llama3-swallow-corpus-ablation-study-ja.png" alt="継続事前学習データセットのアブレーション分析" width="75%" />
+</p>
+
+<h3 id="指示チューニングデータセットの改善">指示チューニングデータセットの改善</h3>
+
+<p>初代Swallowの指示チューニングにはOpenAssistant1を含む英語インストラクションデータの機械翻訳版を使用しましたが，のちに調査したところ，マルチターン対話が失われている，および翻訳誤りやぎこちない日本語が含まれるという問題を認識しました。しかし人手によるデータセットの作成や修正は高コストであることから、我々は既存のLLMにデータセットを合成させる、模倣学習 (Gudibande et al., 2023) と呼ばれるアプローチを採用しました。
+模倣学習は元のLLMが備える知識や能力を転移するものではありませんが、指示に従う能力や回答のスタイルを転移することで、人間の好む応答をしやすくなることが知られています。
+具体的には、<a href="https://huggingface.co/datasets/OpenAssistant/oasst1">OpenAssistant1</a> (Köpf et al., 2023) を機械翻訳した<a href="https://huggingface.co/datasets/llm-jp/oasst1-21k-ja">llm-jp/oasst1-21k-ja</a>の指示文をMixtral-8x7B-Instruct-v0.1に入力して応答文を出力させました。Mixtralを選択した理由は、英語のMT-Benchで高得点を挙げており、なおかつ用途に寛容なApache 2.0ライセンスで提供されているためです。実際に応答文を人手で確認したところ、指示応答性が良好であり、出力される日本語の文章も流暢でした。
+一方で英語で応答する傾向が強いことから、プロンプトや文生成のパラメータを調節して、日本語で応答する割合を30%から50%に改善しました。また生成したデータセットの目視チェックを行い、不適切な応答文をヒューリスティクなフィルタで取り除きました。
+さらに、日本語LLMでも英語インストラクションの併用が有効であるという先行事例を踏まえて、<a href="https://huggingface.co/datasets/OpenAssistant/oasst2">OpenAssistant2</a>の対話ツリーから最高評価の対話のみを抽出したデータを併用することにしました。
+これらのデータセットを使用して構築したSwallow-instruct-v0.1では、7B、13B、70Bすべてのモデルサイズにおいて、日本語MT-Benchのスコアが大幅に改善され、模倣学習データによる指示応答性と日本語の流暢さの向上が確認できました。また、Llama 3 Swallowのinstructモデルの構築にも使用しました。</p>
+
+<p style="text-align: center;">
+  <img src="images/swallow-to-swallow-instruction-v01.png" alt="指示チューニングデータセットの改善による効果" width="100%" />
 </p>
 
 <h3 id="チャットベクトルを併用した指示チューニング">チャット・ベクトルを併用した指示チューニング</h3>

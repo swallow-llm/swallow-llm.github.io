@@ -342,6 +342,19 @@
   <img src="images/llama3-swallow-corpus-ablation-study.png" alt="Ablation study on datasets for continual pre-training" width="75%" />
 </p>
 
+<h3 id="improving-the-dataset-for-instruction-tuning">Improving the dataset for instruction tuning</h3>
+
+<p>We used machine-translated versions of English instructional data, including OpenAssistant1 , for instruction tuning of the first Swallow, but upon later investigation, we recognized problems such as translation errors, awkward Japanese generations, and the loss of the ability of multi-turn dialogue. However, due to the high cost of manually creating and modifying the dataset, we adopted an approach called imitation learning (Gudibande et al., 2023), in which the dataset is synthesized from an existing LLM.
+Although imitation learning does not transfer the knowledge and abilities of the original LLM, it is known to facilitate human-preferred responses by transferring the ability to follow instructions and response styles.
+Specifically, we generate responses by giving the instruction of <a href="https://huggingface.co/datasets/llm-jp/oasst1-21k-ja">llm-jp/oasst1-21k-ja</a>, which was translated from <a href="https://huggingface.co/datasets/OpenAssistant/oasst1">OpenAssistant1</a> (Köpf et al., 2023), to Mixtral-8x7B-Instruct-v0.1. The reason for choosing Mixtral was not only that it achieved the good performance in the English MT-Bench but also that it fits this usage with the permissive license (Apache 2.0 license). When we manually checked the response text, we found that it showed the good ability to follow instructions and fluency in the output text.
+On the other hand, it tended to respond in English. Therefore, we adjusted the prompt and sentence generation parameters to improve the percentage of responses in Japanese from 30% to 50%. The generated data set was also manually examined, and inappropriate response sentences were removed using a heuristic filter.
+Furthermore, based on a previous example of the effectiveness of using English instructions together with Japanese LLMs, we decided to use the high-quality data extracted from the dialogue tree of <a href="https://huggingface.co/datasets/OpenAssistant/oasst2">OpenAssistant2</a>.
+Swallow-instruct-v0.1, built using these datasets, showed significant improvements in Japanese MT-Bench scores at all model sizes (7B, 13B, and 70B), confirming that the imitation learning data improved instruction responsiveness and Japanese fluency. We used this dataset for instruction tuning of Llama 3 Swallow.</p>
+
+<p style="text-align: center;">
+  <img src="images/swallow-to-swallow-instruction-v01.png" alt="Effect of instruction tuning datasets" width="100%" />
+</p>
+
 <h3 id="instruction-tuning-with-chat-vector">Instruction tuning with chat vector</h3>
 
 <p>There are situations where we want to use a base model with high Japanese capability for research and applications. We also want to learn a good practice of instruction tuning in the Swallow project. For this reason, we apply continual pre-training on the base model instead of the instruction-tuned model. However, the original Llama 3’s instruction tuning is not only by supervised fine tuning (SFT), but also by rejection sampling, Proximal Policy Optimization (PPO), and Direct Preference Optimization (DPO). We want to utilize the high-quality instruction-tuning and safety measures of the Llama 3 Instruct model, but discard these efforts if we apply continual pre-training on the base model.</p>
