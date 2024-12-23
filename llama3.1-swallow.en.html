@@ -179,7 +179,8 @@
           <div>
             
 <ul>
-  <li>2024-11-11: Released version 0.2 of Llama 3.1 Swallow 8B and Llama 3.1 Swallow 8B Instruct, and updated the website description. Changes in version 0.2 include improvements in the quality of training data for Japanese program code, and a review of the Japanese-English data ratio. Additionally, Llama 3.1 Swallow 8B Instruct v0.2 continues pre-training from Llama 3.1 8B Instruct (whereas v0.1 continued from the base model) and includes further instruction tuning. This minor update incorporates our latest insights into model construction and does not indicate any issues with version 0.1. Due to the termination of ABCI 2.0 operations at the end of October 2024, we were unable to complete version 0.2 of the Llama 3.1 Swallow 70B model. We hope to update the 70B model at a later date if possible.</li>
+  <li>2024-12-23: Released Llama 3.1 Swallow 8B Instruct v0.3 and updated our website. In v0.3, instruction tuning was conducted using newly developed data, significantly improving Japanese multi-turn conversational capabilities. The average score on the Japanese MT-Bench improved by 8.4 points from v0.2 to v0.3, achieving a top-tier score of 0.6424 among models in this class. Furthermore, instruction-following capabilities in multi-turn conversations were enhanced. The only difference between v0.2 and v0.3 lies in the instruction tuning, as both share the same base model, Llama 3.1 Swallow 8B v0.2 (hence, there is no base model labeled as v0.3). This release is a minor update incorporating the latest insights from the Swallow team, and there are no issues with versions 0.1 or 0.2. Due to the termination of ABCI 2.0 operations at the end of October 2024, it has not been possible to develop new versions of Llama 3.1 Swallow 70B. If the opportunity arises, we plan to update the 70B model in the future.</li>
+  <li>2024-11-11: Released Llama 3.1 Swallow 8B v0.2 and Llama 3.1 Swallow 8B Instruct v0.2, and updated the website description. Changes in v0.2 include improvements in the quality of training data for Japanese program code, and a review of the Japanese-English data ratio. Additionally, Llama 3.1 Swallow 8B Instruct v0.2 continues pre-training from Llama 3.1 8B Instruct (whereas v0.1 continued from the base model) and includes further instruction tuning. This minor update incorporates our latest insights into model construction and does not indicate any issues with v0.1. Due to the termination of ABCI 2.0 operations at the end of October 2024, we were unable to complete v0.2 of the Llama 3.1 Swallow 70B model. We hope to update the 70B model at a later date if possible.</li>
   <li>2024-10-08: Released Llama 3.1 Swallow.</li>
 </ul>
 
@@ -289,15 +290,47 @@
 
 <h2 id="8b-instruct">8B Instruct</h2>
 
-<p>Similarly, the graph below shows the average scores for Japanese understanding and generation tasks, Japanese MT-bench, and English understanding and generation tasks for major instruction-tuned models with 13B parameters or fewer. In this graph, the models are arranged by average scores on Japanese understanding and generation tasks.</p>
+<p>Similarly, the graph below shows the average scores for Japanese understanding and generation tasks, Japanese MT-bench, and English understanding and generation tasks for major instruction-tuned models with 13B parameters or fewer. In this graph, the models are arranged by average scores on Japanese MT-bench scores.</p>
 
 <p style="text-align: center;">
   <img src="images/13b-inst-en.svg" alt="Average benchmark scores for major instruction-tuned models under 13B" />
 </p>
 
-<p>Llama 3.1 Swallow 8B Instruct v0.2 achieved an average score of 0.5141 on Japanese understanding and generation tasks, a 1.50-point increase from instruction tuning. This also marks the highest score among open LLMs under 8B parameters. Additionally, the average score of Llama 3.1 Swallow 8B Instruct v0.2 on the Japanese MT-bench was 0.5584, up 8.18 points from the previous version, Llama 3 Swallow 8B Instruct, which scored 0.4766. Furthermore, Llama 3 Swallow 8B Instruct often responded in English to prompts in Japanese, whereas Llama 3.1 Swallow 8B Instruct now responds in Japanese. When examining the percentage of Japanese characters in Japanese MT-bench responses, Llama 3 Swallow 8B Instruct was at 54.6%, while Llama 3.1 Swallow 8B Instruct v0.2 increased to 69.2% (given that Japanese MT-bench responses include programming code, a Japanese character ratio around 70% is considered normal). With these improvements, we highly recommend using Llama 3.1 Swallow Instruct as it has evolved significantly as an instruction-tuned model.</p>
+<p>The Japanese MT-Bench average score for Llama 3.1 Swallow 8B Instruct v0.3 is 0.6424, placing it among the top-performing Japanese LLMs with fewer than 13B parameters, second only to Gemma 2 9B IT, which scored 0.6753. This update marks the largest performance improvement (8.4 points) in the history of 8B Instruct models since Llama 3 Swallow, achieving a total improvement of 16.58 points compared to the Llama 3 Swallow 8B Instruct released approximately six months ago.</p>
 
-<p>Looking beyond Swallow, both Qwen2.5 7B and Gemma 2 9B stand out, similar to their performance as base models. Notably, Gemma 2 9B’s average score on the Japanese MT-bench (0.6753) surpasses the average score of GPT-3.5 (gpt-3.5-turbo-0125) at 0.6661, showcasing remarkable performance for this class of LLMs. Additionally, Llama-3-ELYZA-JP-8B and Llama 3 Youko 8B Instruct are also based on the Llama 3 series. They performed slightly higher on Japanese MT-bench scores but slightly lower on Japanese understanding and generation tasks compared to Llama 3.1 Swallow 8B Instruct. The performance differences between these models are minor, so it is best to try them out and choose the one that suits your needs (though Llama 3.1 Swallow offers broader usage because of the Llama 3.1 license).</p>
+<table>
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th>Japanese MT-Bench average score</th>
+      <th>Release date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Llama 3 Swallow 8B Instruct</td>
+      <td>0.4766</td>
+      <td>July 1, 2023</td>
+    </tr>
+    <tr>
+      <td>Llama 3.1 Swallow 8B Instruct v0.1</td>
+      <td>0.5327</td>
+      <td>October 8, 2024</td>
+    </tr>
+    <tr>
+      <td>Llama 3.1 Swallow 8B Instruct v0.2</td>
+      <td>0.5584</td>
+      <td>November 11, 2024</td>
+    </tr>
+    <tr>
+      <td>Llama 3.1 Swallow 8B Instruct v0.3</td>
+      <td>0.6424</td>
+      <td>December 23, 2024</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Given these advancements, Llama 3.1 Swallow 8B Instruct v0.3 represents significant evolution as an instruction-tuned model, and we highly recommend utilizing this version for future applications.</p>
 
 <h2 id="70b-base">70B Base</h2>
 
@@ -522,11 +555,25 @@
 
 <h2 id="enhancing-conversational-ability-with-synthetic-data">Enhancing Conversational Ability with Synthetic Data</h2>
 
-<p>Improving LLM’s conversational ability hinges on instruction tuning with diverse and complex prompts, as well as useful and fluent responses. Ideally, it would involve collecting real-world user prompts and manually providing suitable responses, but this process is extremely time-consuming and labor-intensive. To build training data more quickly and affordably, the research team opted to imitate responses from existing high-performance LLMs. Specifically, prompts from the LMSYS-Chat-1M dataset, which contains human-computer interaction data, were translated into Japanese. Then, responses were automatically generated using Llama 3.1 405B Instruct, an open LLM with top-tier conversational ability. Following the methodology used in Llama 3.1 construction, multiple responses were generated, and the best response was selected through automatic scoring by Llama 3.1 70B Instruct. Additionally, quality was improved by identifying and removing duplicate prompts, template-based prompts, and unnecessary repetitive responses.</p>
+<p>Improving LLM’s conversational ability hinges on instruction tuning with diverse and complex prompts, as well as useful and fluent responses. Ideally, it would involve collecting real-world user prompts and manually providing suitable responses, but this process is extremely time-consuming and labor-intensive. To build training data more quickly and affordably, the research team opted to imitate responses from existing high-performance LLMs. Specifically, prompts from the LMSYS-Chat-1M dataset, which contains human-computer interaction data, were translated into Japanese. Then, responses were automatically generated using an open LLM with top-tier conversational ability. Following the methodology used in Llama 3.1 construction, multiple responses were generated, and the best response was selected through automatic scoring by an LLM. Additionally, quality was improved by identifying and removing duplicate prompts, template-based prompts, and unnecessary repetitive responses.</p>
 
 <p>The datasets used for instruction tuning are as follows:</p>
 
-<h3 id="japanese-instruction-tuning-data">Japanese Instruction Tuning Data</h3>
+<h3 id="instruction-tuning-data-for-llama-31-swallow-instruct-v03">Instruction Tuning Data for Llama 3.1 Swallow Instruct v0.3</h3>
+
+<p>Japanese instruction tuning data covers following datasets.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">lmsys-chat-1m-synth-ja-gemma2-2turns-wo-pii-and-template-instructions</code>: A Japanese multi-turn instruction-response dataset synthesized from <a href="https://huggingface.co/datasets/lmsys/lmsys-chat-1m">lmsys-chat-1m</a> (Zhang et al., 2024). The first-turn human prompts were translated into Japanese using DeepL (machine translation), and responses to the translated prompts were generated with <a href="https://huggingface.co/google/gemma-2-27b-it">gemma-2-27b-it</a>. Afterward, rejection sampling (n=6) was performed using <a href="https://huggingface.co/google/gemma-2-27b-it">gemma-2-27b-it</a> for automated scoring. Second-turn user instructions and responses were synthesized using <a href="https://huggingface.co/google/gemma-2-27b-it">gemma-2-27b-it</a>. The quality of the second-turn responses was scored by <a href="https://huggingface.co/google/gemma-2-27b-it">gemma-2-27b-it</a> on a scale of of 1-10. Second-turn responses with scores lower than 9 were rejected, along with their corresponding instructions. Dialogues containing personally identifiable information (PII), template-based prompts, and duplicate prompts were removed.</li>
+  <li><code class="language-plaintext highlighter-rouge">filtered-magpie-ultra-ja</code>: The Japanese version of the <code class="language-plaintext highlighter-rouge">filtered-magpie-ultra-en</code> dataset, translated into Japanese using <a href="https://huggingface.co/google/gemma-2-27b-it">gemma-2-27b-it</a>.</li>
+  <li><code class="language-plaintext highlighter-rouge">gemma-magpie-greater-than-7</code>: A Japanese question-answering dataset synthesized from scratch using <a href="https://huggingface.co/google/gemma-2-27b-it">gemma-2-27b-it</a>. Prompts were generated with topic-specific prompts, and assistant responses were generated for these prompts. Filtering was then applied based on heuristic rules for quality and length. Then, <a href="https://huggingface.co/google/gemma-2-27b-it">gemma-2-27b-it</a> was applied to score the quality of each of the reponse with a range of 1-10. Responses with scores lower or equal to 7, along with its corresponding instructions, were rejected.</li>
+</ul>
+
+<p>English data are excluded during the instruction tuning of Llama-3.1-Swallow-Instruct-v0.3.</p>
+
+<h3 id="instruction-tuning-data-for-llama-31-swallow-instruct-v01-and-v02">Instruction Tuning Data for Llama 3.1 Swallow Instruct v0.1 and v0.2</h3>
+
+<p>Japanese instruction tuning data covers following datasets.</p>
 
 <ul>
   <li><code class="language-plaintext highlighter-rouge">lmsys-chat-1m-synth-ja-wo-pii-and-template-instructions</code>: A Japanese single-turn instruction-response dataset synthesized from <a href="https://huggingface.co/datasets/lmsys/lmsys-chat-1m">lmsys-chat-1m</a> (Zhang et al., 2024). The first-turn human prompts were translated into Japanese using DeepL (machine translation), and responses to the translated prompts were generated with <a href="https://huggingface.co/meta-llama/Llama-3.1-405B-Instruct">Llama-3.1-405B-Instruct</a>. Afterward, rejection sampling (n=6) was performed using <a href="https://huggingface.co/meta-llama/Llama-3.1-70B-Instruct">Llama-3.1-70B-Instruct</a> for automated scoring. Dialogues containing personally identifiable information (PII), template-based prompts, and duplicate prompts were removed.</li>
@@ -534,7 +581,7 @@
   <li><code class="language-plaintext highlighter-rouge">gemma-magpie</code>: A Japanese question-answer dataset synthesized from scratch using <a href="https://huggingface.co/google/gemma-2-27b-it">gemma-2-27b-it</a>. Prompts were generated with topic-specific prompts, and assistant responses were generated for these prompts. Filtering was then applied based on heuristic rules for quality and length.</li>
 </ul>
 
-<h3 id="english-instruction-tuning-data">English Instruction Tuning Data</h3>
+<p>English instruction tuning data covers following datasets.</p>
 
 <ul>
   <li><code class="language-plaintext highlighter-rouge">lmsys-chat-1m-synth-en-wo-pii-and-template-instructions</code>: Responses to the original English prompts from <a href="https://huggingface.co/datasets/lmsys/lmsys-chat-1m">lmsys-chat-1m</a> were generated following the same method used for the Japanese dataset, <code class="language-plaintext highlighter-rouge">lmsys-chat-1m-synth-ja-wo-pii-and-template-instructions</code>. Unlike the Japanese version, rejection sampling was omitted.</li>

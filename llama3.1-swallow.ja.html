@@ -138,7 +138,7 @@
   
             <div class="author__left">
               <h1 class="author__name">Llama 3.1 Swallow</h1>
-              <p class="author__bio"><p>Llama 3.1 SwallowはLlama 3.1の英語の能力を維持しながら、日本語の能力を強化した大規模言語モデル (8B, 70B) です。モデルのパラメータ（重み）がHuggingFace上で公開されていますので、<a href="https://www.llama.com/llama3_1/license/">Llama 3.1ライセンス</a>に従う限り、研究や商業目的などで利用できます（ただし、指示チューニング済みモデルの利用においては、Llama 3.1ライセンスに従ったうえで、Gemma利用規約の利用制限に抵触してはいけません）。Llama 3.1 Swallowは米Meta社のLlama 3.1をベースに、東京科学大学情報理工学院の岡崎研究室と横田研究室、国立研究開発法人産業技術総合研究所の研究チームで開発されました。Built with Llama.  (2024年10月8日 v0.1 公開、2024年11月11日 v0.2 公開)</p>
+              <p class="author__bio"><p>Llama 3.1 SwallowはLlama 3.1の英語の能力を維持しながら、日本語の能力を強化した大規模言語モデル (8B, 70B) です。モデルのパラメータ（重み）がHuggingFace上で公開されていますので、<a href="https://www.llama.com/llama3_1/license/">Llama 3.1ライセンス</a>に従う限り、研究や商業目的などで利用できます（ただし、指示チューニング済みモデルの利用においては、Llama 3.1ライセンスに従ったうえで、Gemma利用規約の利用制限に抵触してはいけません）。Llama 3.1 Swallowは米Meta社のLlama 3.1をベースに、東京科学大学情報理工学院の岡崎研究室と横田研究室、国立研究開発法人産業技術総合研究所の研究チームで開発されました。Built with Llama.  (2024年10月8日 v0.1 公開、2024年11月11日 v0.2 公開、2024年12月23日 v0.3 公開)</p>
 </p>
               
               <a class="author__btn" href="https://huggingface.co/collections/tokyotech-llm/llama-31-swallow-66fd4f7da32705cadd1d5bc6">
@@ -181,7 +181,8 @@
           <div>
             
 <ul>
-  <li>2024-11-11: Llama 3.1 Swallow 8BとLlama 3.1 Swallow 8B Instructのバージョン0.2を公開し、ウェブサイトの記述を更新しました。バージョン0.2における変更点は、日本語の事前学習データの品質改善、プログラムコードの学習データの品質改善、学習データの日英配合比率の見直しです。また、Llama 3.1 Swallow 8B Instruct v0.2はLlama 3.1 8B Instructからの継続事前学習とし（v0.1ではベースモデルからの継続事前学習でした）、さらに指示チューニングを行っています。これらは、Swallowチームの最新の知見をモデル構築に取り込んだマイナーアップデートであり、バージョン0.1に不具合がある訳ではありません。なお、2024年10月末でABCI 2.0の運用が停止したことに伴い、Llama 3.1 Swallow 70Bのバージョン0.2は構築が間に合いませんでした。後日、機会がありましたら70Bのモデルもアップデートしたいと思います。</li>
+  <li>2024-12-23: Llama 3.1 Swallow 8B Instruct v0.3を公開し、ウェブサイトを更新しました。v0.3では、新たに開発されたデータで指示チューニングを実施し、日本語のマルチターン対話能力を改善しました。日本語MT-Benchの平均スコアにおいて、v0.2からv0.3で8.4ポイントの性能向上が得られ、このクラスのモデルの中ではトップクラスのスコア（0.6424）を達成しました。また、マルチターン対話時の指示追従能力を改善しました。v0.2とv0.3の違いは指示チューニングのみで、ベースモデルはLlama 3.1 Swallow 8B v0.2で共通です（このため、ベースモデルのv0.3は欠番となります）。今回のリリースは、Swallowチームの最新の知見をモデル構築に取り込んだマイナーアップデートで、バージョン0.1や0.2に不具合がある訳ではありません。2024年10月末でABCI 2.0の運用が停止したことに伴い、Llama 3.1 Swallow 70Bの新しいバージョンは構築できない状況が続いています。後日、機会がありましたら70Bのモデルもアップデートしたいと思います。</li>
+  <li>2024-11-11: Llama 3.1 Swallow 8BとLlama 3.1 Swallow 8B Instructのv0.2を公開し、ウェブサイトの記述を更新しました。v0.2における変更点は、日本語の事前学習データの品質改善、プログラムコードの学習データの品質改善、学習データの日英配合比率の見直しです。また、Llama 3.1 Swallow 8B Instruct v0.2はLlama 3.1 8B Instructからの継続事前学習とし（v0.1ではベースモデルからの継続事前学習でした）、さらに指示チューニングを行っています。これらは、Swallowチームの最新の知見をモデル構築に取り込んだマイナーアップデートであり、v0.1に不具合がある訳ではありません。なお、2024年10月末でABCI 2.0の運用が停止したことに伴い、Llama 3.1 Swallow 70Bのv0.2は構築が間に合いませんでした。後日、機会がありましたら70Bのモデルもアップデートしたいと思います。</li>
   <li>2024-10-08: Llama 3.1 Swallowを公開。</li>
 </ul>
 
@@ -216,6 +217,7 @@
 <p>Hugging Face</p>
 
 <ul>
+  <li>Llama 3.1 Swallow 8B Instruct v0.3: <a href="https://huggingface.co/tokyotech-llm/Llama-3.1-Swallow-8B-Instruct-v0.3">https://huggingface.co/tokyotech-llm/Llama-3.1-Swallow-8B-Instruct-v0.3</a></li>
   <li>Llama 3.1 Swallow 8B v0.2: <a href="https://huggingface.co/tokyotech-llm/Llama-3.1-Swallow-8B-v0.2">https://huggingface.co/tokyotech-llm/Llama-3.1-Swallow-8B-v0.2</a></li>
   <li>Llama 3.1 Swallow 8B Instruct v0.2: <a href="https://huggingface.co/tokyotech-llm/Llama-3.1-Swallow-8B-Instruct-v0.2">https://huggingface.co/tokyotech-llm/Llama-3.1-Swallow-8B-Instruct-v0.2</a></li>
   <li>Llama 3.1 Swallow 8B v0.1: <a href="https://huggingface.co/tokyotech-llm/Llama-3.1-Swallow-8B-v0.1">https://huggingface.co/tokyotech-llm/Llama-3.1-Swallow-8B-v0.1</a></li>
@@ -307,22 +309,48 @@ Gemma 2 9Bはこのクラスの大規模言語モデルの中で最も高いス�
 
 <h2 id="8b指示チューニングモデル">8B指示チューニングモデル</h2>
 
-<p>同様に、パラメータ数が13B以下の主要な指示チューニングモデルに関して、日本語理解・生成タスク、日本語MT-bench、英語理解・生成タスクの平均スコアを示したグラフを以下に示します。
-このグラフでは、日本語理解・生成タスクの平均スコアの順にモデルを並べています。</p>
+<p>同様に、パラメータ数が13B以下の主要な指示チューニングモデルに関して、日本語理解・生成タスク、日本語MT-Bench、英語理解・生成タスクの平均スコアを示したグラフを以下に示します。
+このグラフでは、日本語MT-Benchの平均スコアの順にモデルを並べています。</p>
 
 <p style="text-align: center;">
   <img src="images/13b-inst-ja.svg" alt="13B以下の主要な指示チューニングモデルのベンチマークの平均スコア" />
 </p>
 
-<p>指示チューニング後のLlama 3.1 Swallow 8B v0.2は日本語理解・生成タスクの平均スコアが0.5141となり、指示チューニングにより1.50ポイント上昇しました。
-こちらも、オープンな8B以下の大規模言語モデルの中では最も高いスコアになりました。
-また、Llama 3.1 Swallow 8B v0.2の日本語MT-benchの平均スコアは0.5584で、前バージョンのLlama 3 Swallow 8Bの0.4766から8.18ポイントの上昇となりました。
-さらに、Llama 3 Swallow 8Bは日本語で問いかけられても英語で応答する傾向がありましたが、Llama 3.1 Swallow 8B v0.2では日本語で応答するようになりました。
-実際、日本語MT-benchの応答に含まれる日本語の文字の割合を調べると、Llama 3 Swallow 8Bが54.6%であったのに対し、Llama 3.1 Swallow 8B v0.2は69.2%まで上昇しました（日本語MT-benchの応答にはプログラムコードが含まれますので、日本語の文字の割合が70%前後であれば正常と言えます）。
-このように、指示チューニングモデルとして見たとき、Llama 3.1 Swallowはだいぶ進化していますので、今後はLlama 3.1 Swallowを利用されることを推奨します。</p>
+<p>Llama 3.1 Swallow 8B Instruct v0.3の日本語MT-benchの平均スコアは0.6424で、Gemma 2 9B ITの平均スコア0.6753に続き、13B以下の日本語LLMの中ではトップクラスの成績を収めています。Llama 3 Swallow以降の8B Instructモデルにおいて、今回のアップデートは過去最大の性能向上（8.4ポイント）で、約半年前に公開されたLlama 3 Swallow 8B Instructからは16.58ポイントの改善を達成しました。</p>
 
-<p>Swallow以外のモデルに目を向けると、ベースモデルと同様にQwen2.5 7BとGemma 2 9Bが頭一つ抜け出している印象です。
-特にGemma 2 9Bの日本語MT-benchの平均スコア（0.6753）はGPT-3.5 (gpt-3.5-turbo-0125) の平均スコア（0.6661）を上回っていますので、このクラスの大規模言語モデルとしては驚異的な性能と言えるでしょう。</p>
+<table>
+  <thead>
+    <tr>
+      <th>モデル</th>
+      <th>日本語MT-benchスコア平均</th>
+      <th>公開日</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Llama 3 Swallow 8B Instruct</td>
+      <td>0.4766</td>
+      <td>2023年7月1日</td>
+    </tr>
+    <tr>
+      <td>Llama 3.1 Swallow 8B Instruct v0.1</td>
+      <td>0.5327</td>
+      <td>2024年10月8日</td>
+    </tr>
+    <tr>
+      <td>Llama 3.1 Swallow 8B Instruct v0.2</td>
+      <td>0.5584</td>
+      <td>2024年11月11日</td>
+    </tr>
+    <tr>
+      <td>Llama 3.1 Swallow 8B Instruct v0.3</td>
+      <td>0.6424</td>
+      <td>2024年12月23日</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>このように、指示チューニングモデルとして見たとき、Llama 3.1 Swallow 8B Instruct v0.3はだいぶ進化していますので、今後はこちらのモデルを利用されることを推奨します。</p>
 
 <h2 id="70bベースモデル">70Bベースモデル</h2>
 
@@ -582,19 +610,33 @@ Llama 3.1 Swallow の学習では別途、数学的なデータセット（Cosmo
 
 <h2 id="合成データによる対話能力の向上">合成データによる対話能力の向上</h2>
 
-<p>大規模言語モデルの対話能力を向上させる鍵は、多様かつ複雑な指示、および有用かつ流暢な応答からなる学習データで指示チューニングをすることにあります。理想的には、大規模言語モデルに寄せられる問いかけのデータを収集し、適切な応答を人手で付与したデータを構築することが望ましいですが、これには膨大な時間と労力が必要です。研究チームは、短期間かつ安価に学習データを構築するため、高い対話能力を有する既存の大規模言語モデルの応答を模倣するアプローチを採用しました。具体的には、人間と大規模言語モデルの対話履歴を収録したLMSYS-Chat-1Mデータセットの指示文を邦訳し、オープンなモデルの中でトップクラスの対話能力を有するLlama 3.1 405B Instructを用いて応答文を自動生成しました。また、Llama 3.1構築の方法論に倣い、複数の応答文を生成してからLlama 3.1 70B Instructに選好を自動採点させ、最良の応答文を選択するという工夫を取り入れました。さらに、重複する指示文や機械的な指示文、無用な繰り返しを含む応答を検出・削除することで、データの品質を向上させました。</p>
+<p>大規模言語モデルの対話能力を向上させる鍵は、多様かつ複雑な指示、および有用かつ流暢な応答からなる学習データで指示チューニングをすることにあります。理想的には、大規模言語モデルに寄せられる問いかけのデータを収集し、適切な応答を人手で付与したデータを構築することが望ましいですが、これには膨大な時間と労力が必要です。研究チームは、短期間かつ安価に学習データを構築するため、高い対話能力を有する既存の大規模言語モデルの応答を模倣するアプローチを採用しました。具体的には、人間と大規模言語モデルの対話履歴を収録したLMSYS-Chat-1Mデータセットの指示文を邦訳し、オープンなモデルの中でトップクラスの対話能力を有するもの（Llama-3.1-405B-Instructもしくはgemma-2-27b-it）を用いて応答文を自動生成しました。また、Llama 3.1構築の方法論に倣い、複数の応答文を生成してからモデルに選好を自動採点させ、最良の応答文を選択するという工夫を取り入れました。さらに、重複する指示文や機械的な指示文、無用な繰り返しを含む応答を検出・削除することで、データの品質を向上させました。</p>
 
 <p>指示チューニングで用いたデータは以下の通りです。</p>
 
-<p>日本語の指示チューニングデータ</p>
+<h3 id="llama-31-swallow-instruct-v03">Llama 3.1 Swallow Instruct v0.3</h3>
+
+<p>日本語の指示チューニングデータは以下の通りです。</p>
 
 <ul>
-  <li><code class="language-plaintext highlighter-rouge">lmsys-chat-1m-synth-ja-wo-pii-and-template-instructions</code>:  <a href="https://huggingface.co/datasets/lmsys/lmsys-chat-1m">lmsys-chat-1m</a> (Zhang et al, 2024) から合成した日本語シングルターン指示・応答データセット。1ターン目の人間の指示文をDeepL（機械翻訳）で邦訳し，邦訳した指示文に対して<a href="https://huggingface.co/meta-llama/Llama-3.1-405B-Instruct">Llama-3.1-405B-Instruct</a>でアシスタントの応答文を生成した。その後、<a href="https://huggingface.co/meta-llama/Llama-3.1-70B-Instruct">Llama-3.1-70B-Instruct</a>の自動採点によって棄却サンプリング (n=6) を行った。なお、個人識別情報 (PII) を含む対話、テンプレートベースの指示文、および重複する指示文は削除した。</li>
+  <li><code class="language-plaintext highlighter-rouge">lmsys-chat-1m-synth-ja-gemma2-2turns-wo-pii-and-template-instructions</code>:  <a href="https://huggingface.co/datasets/lmsys/lmsys-chat-1m">lmsys-chat-1m</a> (Zhang et al, 2024) から合成した日本語マルチターン指示・応答データセット。1ターン目の人間の指示文をDeepL（機械翻訳）で邦訳し、邦訳した指示文に対して<a href="https://huggingface.co/google/gemma-2-27b-it">gemma-2-27b-it</a>でアシスタントの応答文を生成した。その後、<a href="https://huggingface.co/google/gemma-2-27b-it">gemma-2-27b-it</a>の自動採点によって棄却サンプリング (n=6) を行った。2ターン目の指示文と応答文を<a href="https://huggingface.co/google/gemma-2-27b-it">gemma-2-27b-it</a>を用いて生成した。その後、2ターン目の応答文を<a href="https://huggingface.co/google/gemma-2-27b-it">gemma-2-27b-it</a>を用いて自動採点して、10点満点中9点未満の応答文とその指示文を削除した。なお、個人識別情報 (PII) を含む対話、テンプレートベースの指示文、および重複する指示文は削除した。</li>
+  <li><code class="language-plaintext highlighter-rouge">filtered-magpie-ultra-ja</code>: v0.1 および v0.2 で用いた <code class="language-plaintext highlighter-rouge">filtered-magpie-ultra-ja</code> （後述）と同一。</li>
+  <li><code class="language-plaintext highlighter-rouge">gemma-magpie-greater-than-7</code>: v0.1 および v0.2 で用いた <code class="language-plaintext highlighter-rouge">gemma-magpie</code> （後述）に対して <a href="https://huggingface.co/google/gemma-2-27b-it">gemma-2-27b-it</a>の自動採点を行い、7点以下の応答文およびその指示文を削除した。</li>
+</ul>
+
+<p>Llama-3.1-Swallow-Instruct-v0.3 では、英語の指示チューニングデータは使用していません。</p>
+
+<h3 id="llama-31-swallow-instruct-v01-および-v02">Llama 3.1 Swallow Instruct v0.1 および v0.2</h3>
+
+<p>日本語の指示チューニングデータは以下の通りです。</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">lmsys-chat-1m-synth-ja-wo-pii-and-template-instructions</code>:  <a href="https://huggingface.co/datasets/lmsys/lmsys-chat-1m">lmsys-chat-1m</a> (Zhang et al, 2024) から合成した日本語シングルターン指示・応答データセット。1ターン目の人間の指示文をDeepL（機械翻訳）で邦訳し、邦訳した指示文に対して<a href="https://huggingface.co/meta-llama/Llama-3.1-405B-Instruct">Llama-3.1-405B-Instruct</a>でアシスタントの応答文を生成した。その後、<a href="https://huggingface.co/meta-llama/Llama-3.1-70B-Instruct">Llama-3.1-70B-Instruct</a>の自動採点によって棄却サンプリング (n=6) を行った。なお、個人識別情報 (PII) を含む対話、テンプレートベースの指示文、および重複する指示文は削除した。</li>
   <li><code class="language-plaintext highlighter-rouge">filtered-magpie-ultra-ja</code>: <code class="language-plaintext highlighter-rouge">filtered-magpie-ultra-en</code> データセットの日本語版。<a href="https://huggingface.co/google/gemma-2-27b-it">gemma-2-27b-it</a>によって日本語に翻訳された。</li>
   <li><code class="language-plaintext highlighter-rouge">gemma-magpie</code>: <a href="https://huggingface.co/google/gemma-2-27b-it">gemma-2-27b-it</a>を用いてゼロから合成した、日本語の質問応答データセット。各トピックに特化したプロンプトで指示文を生成し、生成した指示文に対してアシスタントの応答文を生成した。その後、品質および文長さに関するヒューリスティック・ルールでフィルタリングを行った。</li>
 </ul>
 
-<p>英語の指示チューニングデータ</p>
+<p>英語の指示チューニングデータは以下の通りです。</p>
 
 <ul>
   <li><code class="language-plaintext highlighter-rouge">lmsys-chat-1m-synth-en-wo-pii-and-template-instructions</code>:　<a href="https://huggingface.co/datasets/lmsys/lmsys-chat-1m">lmsys-chat-1m</a>オリジナルの英語の指示文に対して、<code class="language-plaintext highlighter-rouge">lmsys-chat-1m-synth-ja-wo-piii-and-template-instructions</code> と同様の方法で英語の応答文を生成した。日本語版と異なり、棄却サンプリングは省略した。</li>
