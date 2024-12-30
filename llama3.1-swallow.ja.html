@@ -138,7 +138,7 @@
   
             <div class="author__left">
               <h1 class="author__name">Llama 3.1 Swallow</h1>
-              <p class="author__bio"><p>Llama 3.1 SwallowはLlama 3.1の英語の能力を維持しながら、日本語の能力を強化した大規模言語モデル (8B, 70B) です。モデルのパラメータ（重み）がHuggingFace上で公開されていますので、<a href="https://www.llama.com/llama3_1/license/">Llama 3.1ライセンス</a>に従う限り、研究や商業目的などで利用できます（ただし、指示チューニング済みモデルの利用においては、Llama 3.1ライセンスに従ったうえで、Gemma利用規約の利用制限に抵触してはいけません）。Llama 3.1 Swallowは米Meta社のLlama 3.1をベースに、東京科学大学情報理工学院の岡崎研究室と横田研究室、国立研究開発法人産業技術総合研究所の研究チームで開発されました。Built with Llama.  (2024年10月8日 v0.1 公開、2024年11月11日 v0.2 公開、2024年12月23日 v0.3 公開)</p>
+              <p class="author__bio"><p>Llama 3.1 SwallowはLlama 3.1の英語の能力を維持しながら、日本語の能力を強化した大規模言語モデル (8B, 70B) です。モデルのパラメータ（重み）がHuggingFace上で公開されていますので、<a href="https://www.llama.com/llama3_1/license/">Llama 3.1ライセンス</a>に従う限り、研究や商業目的などで利用できます（ただし、指示チューニング済みモデルの利用においては、Llama 3.1ライセンスに従ったうえで、Gemma利用規約の利用制限に抵触してはいけません）。Llama 3.1 Swallowは米Meta社のLlama 3.1をベースに、東京科学大学情報理工学院の岡崎研究室と横田研究室、国立研究開発法人産業技術総合研究所の研究チームで開発されました。Built with Llama.  (2024年10月8日 v0.1 公開、2024年11月11日 8B v0.2 公開、2024年12月23日 8B v0.3 公開，2024年12月30日 70B v0.3 公開)</p>
 </p>
               
               <a class="author__btn" href="https://huggingface.co/collections/tokyotech-llm/llama-31-swallow-66fd4f7da32705cadd1d5bc6">
@@ -181,6 +181,7 @@
           <div>
             
 <ul>
+  <li>2024-12-30: Llama 3.1 Swallow 70B Instruct v0.3を公開し、ウェブサイトを更新しました。Llama 3.1 Swallow 8B Instruct v0.3と同じデータで指示チューニングを実施し、日本語のマルチターン対話能力を改善しました。v0.1とv0.3の違いは指示チューニングのみで、ベースモデルはLlama 3.1 Swallow 70B v0.1で共通です（このため、v0.2およびベースモデルのv0.3は欠番となります）。今回のリリースは、Swallowチームの最新の知見をモデル構築に取り込んだマイナーアップデートで、バージョン0.1に不具合がある訳ではありません。</li>
   <li>2024-12-23: Llama 3.1 Swallow 8B Instruct v0.3を公開し、ウェブサイトを更新しました。v0.3では、新たに開発されたデータで指示チューニングを実施し、日本語のマルチターン対話能力を改善しました。日本語MT-Benchの平均スコアにおいて、v0.2からv0.3で8.4ポイントの性能向上が得られ、このクラスのモデルの中ではトップクラスのスコア（0.6424）を達成しました。また、マルチターン対話時の指示追従能力を改善しました。v0.2とv0.3の違いは指示チューニングのみで、ベースモデルはLlama 3.1 Swallow 8B v0.2で共通です（このため、ベースモデルのv0.3は欠番となります）。今回のリリースは、Swallowチームの最新の知見をモデル構築に取り込んだマイナーアップデートで、バージョン0.1や0.2に不具合がある訳ではありません。2024年10月末でABCI 2.0の運用が停止したことに伴い、Llama 3.1 Swallow 70Bの新しいバージョンは構築できない状況が続いています。後日、機会がありましたら70Bのモデルもアップデートしたいと思います。</li>
   <li>2024-11-11: Llama 3.1 Swallow 8BとLlama 3.1 Swallow 8B Instructのv0.2を公開し、ウェブサイトの記述を更新しました。v0.2における変更点は、日本語の事前学習データの品質改善、プログラムコードの学習データの品質改善、学習データの日英配合比率の見直しです。また、Llama 3.1 Swallow 8B Instruct v0.2はLlama 3.1 8B Instructからの継続事前学習とし（v0.1ではベースモデルからの継続事前学習でした）、さらに指示チューニングを行っています。これらは、Swallowチームの最新の知見をモデル構築に取り込んだマイナーアップデートであり、v0.1に不具合がある訳ではありません。なお、2024年10月末でABCI 2.0の運用が停止したことに伴い、Llama 3.1 Swallow 70Bのv0.2は構築が間に合いませんでした。後日、機会がありましたら70Bのモデルもアップデートしたいと思います。</li>
   <li>2024-10-08: Llama 3.1 Swallowを公開。</li>
@@ -218,6 +219,7 @@
 
 <ul>
   <li>Llama 3.1 Swallow 8B Instruct v0.3: <a href="https://huggingface.co/tokyotech-llm/Llama-3.1-Swallow-8B-Instruct-v0.3">https://huggingface.co/tokyotech-llm/Llama-3.1-Swallow-8B-Instruct-v0.3</a></li>
+  <li>Llama 3.1 Swallow 70B Instruct v0.3: <a href="https://huggingface.co/tokyotech-llm/Llama-3.1-Swallow-70B-Instruct-v0.3">https://huggingface.co/tokyotech-llm/Llama-3.1-Swallow-70B-Instruct-v0.3</a></li>
   <li>Llama 3.1 Swallow 8B v0.2: <a href="https://huggingface.co/tokyotech-llm/Llama-3.1-Swallow-8B-v0.2">https://huggingface.co/tokyotech-llm/Llama-3.1-Swallow-8B-v0.2</a></li>
   <li>Llama 3.1 Swallow 8B Instruct v0.2: <a href="https://huggingface.co/tokyotech-llm/Llama-3.1-Swallow-8B-Instruct-v0.2">https://huggingface.co/tokyotech-llm/Llama-3.1-Swallow-8B-Instruct-v0.2</a></li>
   <li>Llama 3.1 Swallow 8B v0.1: <a href="https://huggingface.co/tokyotech-llm/Llama-3.1-Swallow-8B-v0.1">https://huggingface.co/tokyotech-llm/Llama-3.1-Swallow-8B-v0.1</a></li>
@@ -410,26 +412,15 @@ Gemma 2 27Bはパラメータ数が少ないにも関わらず、35Bや47BのMix
 
 <p>最後に、Llama 3.1 Swallow 70Bの指示チューニングモデルの性能を分析します。
 パラメータ数が20B以上の主要なベースモデルに関して、日本語理解・生成タスク、日本語MT-bench、英語理解・生成タスクの平均スコアを示したグラフを以下に示します。
-このグラフでは、日本語理解・生成タスクの平均スコアの順にモデルを並べています。</p>
+このグラフでは、日本語MT-benchの平均スコアの順にモデルを並べています。</p>
 
 <p style="text-align: center;">
   <img src="images/20b-inst-ja.svg" alt="20B以上の主要な指示チューニングモデルのベンチマークの平均スコア" />
 </p>
 
-<p>Llama 3.1 Swallow 70B Instructの日本語MT-benchの平均スコアは0.6547で、前バージョンのLlama 3 Swallow 70Bの0.5809から7.38ポイントの上昇となりました。
-8Bの結果も踏まえると、Llama 3.1 Swallowの指示チューニングが効果的であることが改めて示されました。
-ただ、Llama 3.1 70B（継続事前学習前）の日本語理解・生成タスクの平均スコアは0.5945、Llama 3.1 Swallow 70B（継続事前学習後）の平均スコアは0.5887ですので、数字上は継続事前学習の効果が見えません。
-これはSwallowチームにとっても期待外れの結果でしたが、各タスクのスコアの内訳（下図）を見ると、その原因が分かります。
-Llama 3.1 Swallow 70B InstructがLlama 3.1 70B Instructよりも劣るのはコード生成（HumanEvalとJHumanEval）であり、逆に日本の質問応答（NIILC）では若干優れているという結果が得られています。
-Llama 3.1 70B BaseとLlama 3.1 70B Instructの結果を比較すると、HumanEvalおよびJHumanEvalのスコアは指示チューニングで伸びていますので、コード生成に関してSwallowの指示チューニングに改良の余地があるかもしれません。</p>
-
-<p style="text-align: center;">
-  <img src="images/llama-3.1-swallow-instruct-70b-ja.png" alt="Llama 3.1 70B InstructとLlama 3.1 Swallow 70B Instructの言語理解・生成タスクのスコアの内訳" />
-</p>
-
-<p>さて、Swallow以外のモデルに目を移すと、Qwen2.5 72B Instructが日本語MT-benchでGPT-4o (gpt-4o-2024-05-13) 並みの対話性能を示していることが分かります。
-また、Llama 3 Youko 70B InstructやGemma 27B IT、Llama-3.1-70B-Japanese-Instruct-2407なども日本語MT-benchで高いスコアを出しています。
-SwallowチームでもMT-benchで高いスコアを出せるように検討を進めていきたいと考えていますが、最近のモデルはMT-benchに過適合している可能性もあります。
+<p>Llama 3.1 Swallow 70B Instruct v0.3の日本語MT-benchの平均スコアは0.7115で、GPT-3.5 (gpt-3.5-turbo-0125)の0.6661を超えました。
+今回評価を実施したモデルの中では、GPT-4o (gpt-4o-2024-05-13)の0.7791、Qwen2.5-72B-Instructの0.7594、Llama 3 Youko 70B Instructの0.7222に次ぐ4番手のスコアでした。
+また、前バージョンのLlama 3.1 Swallow 70B Instruct v0.1の0.6547から5.68ポイントの上昇となりました。
 日本語のオープンな大規模言語モデルもだいぶ性能が向上しましたので、そろそろ人間による評価　(Chatbot Arena: Chiang et al., 2024) や設問の難化 (Arena-Hard: Li et al., 2024) が必要な時期に差し掛かっているかもしれません。</p>
 
 

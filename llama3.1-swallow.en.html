@@ -136,7 +136,7 @@
   
             <div class="author__left">
               <h1 class="author__name">Llama 3.1 Swallow</h1>
-              <p class="author__bio"><p>Llama 3.1 Swallow is large language models (8B, 70B) that enhance Japanese language capabilities while maintaining the English abilities of Llama 3.1. The model parameters (weights) are available on HuggingFace, allowing usage for research and commercial purposes as long as it complies with the <a href="https://www.llama.com/llama3_1/license/">Llama 3.1 license</a> (uses of instruction-tuned models must comply with the <a href="https://www.llama.com/llama3_1/license/">Meta Llama 3.1 Community License</a> and must not violate the <a href="https://ai.google.dev/gemma/terms#3.2-use">Use Restriction</a> set forth in the <a href="https://ai.google.dev/gemma/terms">Gemma Terms of Use</a>). Llama 3.1 Swallow is based on Meta Llama 3.1 and was developed by the research team at the Okazaki Laboratory and Yokota Laboratory of the Institute of Science Tokyo, and the National Institute of Advanced Industrial Science and Technology (AIST). Built with Llama. (Released v0.1 on Oct 8, 2024; released v0.2 on Nov 11)</p>
+              <p class="author__bio"><p>Llama 3.1 Swallow is large language models (8B, 70B) that enhance Japanese language capabilities while maintaining the English abilities of Llama 3.1. The model parameters (weights) are available on HuggingFace, allowing usage for research and commercial purposes as long as it complies with the <a href="https://www.llama.com/llama3_1/license/">Llama 3.1 license</a> (uses of instruction-tuned models must comply with the <a href="https://www.llama.com/llama3_1/license/">Meta Llama 3.1 Community License</a> and must not violate the <a href="https://ai.google.dev/gemma/terms#3.2-use">Use Restriction</a> set forth in the <a href="https://ai.google.dev/gemma/terms">Gemma Terms of Use</a>). Llama 3.1 Swallow is based on Meta Llama 3.1 and was developed by the research team at the Okazaki Laboratory and Yokota Laboratory of the Institute of Science Tokyo, and the National Institute of Advanced Industrial Science and Technology (AIST). Built with Llama. (Released v0.1 on Oct 8, 2024; released v0.2 on Nov 11; released 8B v0.3 on Dec 23; released 70B v0.3 on Dec 30.)</p>
 </p>
               
               <a class="author__btn" href="https://huggingface.co/collections/tokyotech-llm/llama-31-swallow-66fd4f7da32705cadd1d5bc6">
@@ -179,6 +179,7 @@
           <div>
             
 <ul>
+  <li>2024-12-30: Released Llama 3.1 Swallow 70B Instruct v0.3 and updated the website. This version was instruction-tuned using the same dataset as Llama 3.1 Swallow 8B Instruct v0.3, improving Japanese multi-turn dialogue capabilities. The difference between v0.1 and v0.3 lies solely in instruction tuning, as both share the same base model, Llama 3.1 Swallow 70B v0.1. (As a result, v0.2 and the base model’s v0.3 are skipped). This release is a minor update that integrates the Swallow team’s latest insights into model construction. There are no issues with version 0.1.</li>
   <li>2024-12-23: Released Llama 3.1 Swallow 8B Instruct v0.3 and updated our website. In v0.3, instruction tuning was conducted using newly developed data, significantly improving Japanese multi-turn conversational capabilities. The average score on the Japanese MT-Bench improved by 8.4 points from v0.2 to v0.3, achieving a top-tier score of 0.6424 among models in this class. Furthermore, instruction-following capabilities in multi-turn conversations were enhanced. The only difference between v0.2 and v0.3 lies in the instruction tuning, as both share the same base model, Llama 3.1 Swallow 8B v0.2 (hence, there is no base model labeled as v0.3). This release is a minor update incorporating the latest insights from the Swallow team, and there are no issues with versions 0.1 or 0.2. Due to the termination of ABCI 2.0 operations at the end of October 2024, it has not been possible to develop new versions of Llama 3.1 Swallow 70B. If the opportunity arises, we plan to update the 70B model in the future.</li>
   <li>2024-11-11: Released Llama 3.1 Swallow 8B v0.2 and Llama 3.1 Swallow 8B Instruct v0.2, and updated the website description. Changes in v0.2 include improvements in the quality of training data for Japanese program code, and a review of the Japanese-English data ratio. Additionally, Llama 3.1 Swallow 8B Instruct v0.2 continues pre-training from Llama 3.1 8B Instruct (whereas v0.1 continued from the base model) and includes further instruction tuning. This minor update incorporates our latest insights into model construction and does not indicate any issues with v0.1. Due to the termination of ABCI 2.0 operations at the end of October 2024, we were unable to complete v0.2 of the Llama 3.1 Swallow 70B model. We hope to update the 70B model at a later date if possible.</li>
   <li>2024-10-08: Released Llama 3.1 Swallow.</li>
@@ -215,6 +216,8 @@
 <p>Hugging Face</p>
 
 <ul>
+  <li>Llama 3.1 Swallow 8B Instruct v0.3: <a href="https://huggingface.co/tokyotech-llm/Llama-3.1-Swallow-8B-Instruct-v0.3">https://huggingface.co/tokyotech-llm/Llama-3.1-Swallow-8B-Instruct-v0.3</a></li>
+  <li>Llama 3.1 Swallow 70B Instruct v0.3: <a href="https://huggingface.co/tokyotech-llm/Llama-3.1-Swallow-70B-Instruct-v0.3">https://huggingface.co/tokyotech-llm/Llama-3.1-Swallow-70B-Instruct-v0.3</a></li>
   <li>Llama 3.1 Swallow 8B v0.2: <a href="https://huggingface.co/tokyotech-llm/Llama-3.1-Swallow-8B-v0.2">https://huggingface.co/tokyotech-llm/Llama-3.1-Swallow-8B-v0.2</a></li>
   <li>Llama 3.1 Swallow 8B Instruct v0.2: <a href="https://huggingface.co/tokyotech-llm/Llama-3.1-Swallow-8B-Instruct-v0.2">https://huggingface.co/tokyotech-llm/Llama-3.1-Swallow-8B-Instruct-v0.2</a></li>
   <li>Llama 3.1 Swallow 8B v0.1: <a href="https://huggingface.co/tokyotech-llm/Llama-3.1-Swallow-8B-v0.1">https://huggingface.co/tokyotech-llm/Llama-3.1-Swallow-8B-v0.1</a></li>
@@ -378,19 +381,16 @@
 
 <h2 id="70b-instruct">70B Instruct</h2>
 
-<p>Finally, we analyze the performance of the Llama 3.1 Swallow 70B Instruct. The graph below shows the average scores on Japanese understanding and generation tasks, Japanese MT-bench, and English understanding and generation tasks for major base models with 20B parameters or more. In this graph, the models are arranged by average scores on Japanese understanding and generation tasks.</p>
+<p>Finally, we analyze the performance of the Llama 3.1 Swallow 70B Instruct. The graph below shows the average scores on Japanese understanding and generation tasks, Japanese MT-bench, and English understanding and generation tasks for major base models with 20B parameters or more. In this graph, the models are arranged by average scores on Japanese MT-bench tasks.</p>
 
 <p style="text-align: center;">
   <img src="images/20b-inst-en.svg" alt="Average benchmark scores for major instruction-tuned models with over 20B parameters" />
 </p>
 
-<p>The average Japanese MT-bench score for Llama 3.1 Swallow 70B Instruct is 0.6547, a 7.38-point increase from the previous Llama 3 Swallow 70B score of 0.5809. With the 8B results, this demonstrates that the instruction tuning of Llama 3.1 Swallow has proven effective. However, the Japanese understanding and generation task scores for Llama 3.1 70B (before continual pre-training) and Llama 3.1 Swallow 70B (after continual pre-training) are 0.5945 and 0.5887, respectively, showing no noticeable improvement from continual pre-training. This was unexpected for the Swallow team, but examining the breakdown of scores for each task (below) reveals the reason. The areas where Llama 3.1 Swallow 70B Instruct underperforms compared to Llama 3.1 70B Instruct are in code generation tasks (HumanEval and JHumanEval), while it performs slightly better in Japanese question-answering tasks (NIILC). A comparison between Llama 3.1 70B Base and Llama 3.1 70B Instruct shows that scores on HumanEval and JHumanEval improved with instruction tuning, suggesting that there may be room for improvement in Swallow’s instruction tuning for code generation.</p>
-
-<p style="text-align: center;">
-  <img src="images/llama-3.1-swallow-instruct-70b-en.png" alt="Breakdown of language understanding and generation task scores for Llama 3.1 70B Instruct and Llama 3.1 Swallow 70B Instruct" />
-</p>
-
-<p>Looking at other models beyond Swallow, it’s clear that Qwen2.5 72B Instruct demonstrates dialogue performance on the Japanese MT-bench comparable to GPT-4o (gpt-4o-2024-05-13). Additionally, Llama 3 Youko 70B Instruct, Gemma 27B IT, and Llama-3.1-70B-Japanese-Instruct-2407 also achieve high scores on Japanese MT-bench. The Swallow team is exploring ways to achieve higher scores on MT-bench, though it is possible that some recent models may be overfitting to the MT-bench. With the significant performance improvements of Japanese open LLMs, it may be time to incorporate human evaluations (Chatbot Arena: Chiang et al., 2024) or increase question difficulty (Arena-Hard: Li et al., 2024).</p>
+<p>The Japanese MT-bench average score for Llama 3.1 Swallow 70B Instruct v0.3 was 0.7115, surpassing GPT-3.5 (gpt-3.5-turbo-0125), which scored 0.6661.
+Among the models evaluated this time, it ranked fourth, following GPT-4o (gpt-4o-2024-05-13) with 0.7791, Qwen2.5-72B-Instruct with 0.7594, and Llama 3 Youko 70B Instruct with 0.7222.
+Additionally, it showed a 5.68-point improvement compared to the previous version, Llama 3.1 Swallow 70B Instruct v0.1, which scored 0.6547.
+With the significant performance improvements of Japanese open LLMs, it may be time to incorporate human evaluations (Chatbot Arena: Chiang et al., 2024) or increase question difficulty (Arena-Hard: Li et al., 2024).</p>
 
 
           </div>
