@@ -548,7 +548,7 @@ The SFT data for code generation tasks was obtained by converting the Swallow Co
 <h3 id="distributed-parallel-training-with-amazon-sagemaker-hyperpod">Distributed Parallel Training with Amazon SageMaker HyperPod</h3>
 
 <p>As of October 2024, the operational timeline of ABCI 3.0 was uncertain. Therefore, for this round of continual pretraining, we utilized Amazon Web Services (AWS) SageMaker HyperPod (H100 × 32 nodes) for model training.
-On SageMaker HyperPod, we used the Elastic Fabric Adapter (EFA) network interface. However, we observed that PyTorch’s unmanaged memory usage increased when using EFA compared to InfiniBand environments (e.g., Tokyo University of Science’s TSUBAME 4.0). This unexpected memory overhead caused out-of-memory (OOM) errors, requiring adjustments to the distributed training setup.</p>
+On SageMaker HyperPod, we used the Elastic Fabric Adapter (EFA) network interface. However, we observed that PyTorch’s unmanaged memory usage increased when using EFA compared to InfiniBand environments (e.g., Institute of Science Tokyo’s TSUBAME 4.0). This unexpected memory overhead caused out-of-memory (OOM) errors, requiring adjustments to the distributed training setup.</p>
 
 <p>To further accelerate training, we optimized communication and computation overlap. Previously, we had overlapped data parallel (DP) communication with training computation. This time, we also overlapped tensor parallel (TP) communication with training computation.
 By reducing the waiting time required for communication to complete before computation could proceed, we significantly improved training speed.</p>
@@ -557,7 +557,7 @@ By reducing the waiting time required for communication to complete before compu
 These optimizations reduced checkpoint saving time to less than one-tenth compared to Llama 3.1 Swallow 70B v0.1, further accelerating the overall training process.</p>
 
 <p>For more details about the training environment, please refer to our <a href="https://zenn.dev/tokyotech_lm/articles/fefdf5cd62cff2">blog post</a>. 
-We would also like to extend our gratitude to Mr. Yagyu, Mr. Sasaki, Mr. Watanabe, and Mr. Miyamoto from AWS for their invaluable support during this project.</p>
+We would also like to extend our gratitude to Ms. Yagyu, Mr. Sasaki, Dr. Watanabe, Dr. Miyamoto, and Mr. Isaka from AWS for their invaluable support during this project.</p>
 
 <h3 id="references">References</h3>
 
