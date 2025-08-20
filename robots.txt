@@ -1,1 +1,1 @@
-Sitemap: https://www.chokkan.org/swallow/sitemap.xml
+Sitemap: https://swallow-llm.github.io/sitemap.xml
