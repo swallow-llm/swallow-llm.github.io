@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 397.28 643.89">
+  <!-- Generator: Adobe Illustrator 29.5.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 141)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #ffe9e7;
+        stroke: #ff8f86;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9 {
+        stroke-width: 2.67px;
+      }
+
+      .st0, .st1, .st2, .st3, .st5, .st7, .st9 {
+        stroke-linejoin: round;
+      }
+
+      .st0, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9 {
+        fill-rule: evenodd;
+      }
+
+      .st1 {
+        stroke: #b5b5b8;
+      }
+
+      .st1, .st4, .st6, .st8 {
+        fill: #fff;
+      }
+
+      .st2 {
+        fill: #cfc;
+        stroke: #00b050;
+      }
+
+      .st3 {
+        fill: #00b050;
+      }
+
+      .st3, .st8 {
+        stroke: #060;
+      }
+
+      .st4, .st6, .st8 {
+        stroke-miterlimit: 8;
+      }
+
+      .st4, .st9 {
+        stroke: #0071bc;
+      }
+
+      .st5 {
+        fill: #0071bc;
+        stroke: #002c4e;
+      }
+
+      .st10 {
+        font-family: Meiryo, Meiryo;
+        font-size: 14px;
+      }
+
+      .st10, .st11, .st12, .st13, .st14 {
+        isolation: isolate;
+      }
+
+      .st10, .st12 {
+        fill: #4d4d4d;
+      }
+
+      .st6 {
+        stroke: #a80000;
+      }
+
+      .st7 {
+        fill: #ff5050;
+        stroke: #6c1d1d;
+      }
+
+      .st11 {
+        font-family: SegoeUI, 'Segoe UI';
+      }
+
+      .st11, .st13 {
+        font-size: 21px;
+      }
+
+      .st11, .st14 {
+        fill: #333;
+      }
+
+      .st12 {
+        font-size: 19px;
+      }
+
+      .st12, .st13 {
+        font-family: Meiryo-Bold, Meiryo;
+      }
+
+      .st12, .st13, .st14 {
+        font-weight: 700;
+      }
+
+      .st13 {
+        fill: #f2f2f2;
+      }
+
+      .st14 {
+        font-family: SegoeUI-Bold, 'Segoe UI';
+        font-size: 24px;
+      }
+
+      .st9 {
+        fill: #e2f1fa;
+      }
+    </style>
+  </defs>
+  <path class="st9" d="M11,119.59c0-9.5,7.7-17.2,17.2-17.2h343.61c9.5,0,17.2,7.7,17.2,17.2v153.61c0,9.5-7.7,17.2-17.2,17.2H28.2c-9.5,0-17.2-7.7-17.2-17.2V119.59Z"/>
+  <path class="st5" d="M10,117.16c0-8.71,7.06-15.77,15.77-15.77h346.47c8.71,0,15.77,7.06,15.77,15.77v13.47c0,8.71-7.06,15.77-15.77,15.77H25.77c-8.71,0-15.77-7.06-15.77-15.77v-13.47Z"/>
+  <text class="st13" transform="translate(73.14 133.89)"><tspan x="0" y="0">GPT</tspan></text>
+  <text class="st13" transform="translate(118.47 133.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st13" transform="translate(128.47 133.89)"><tspan x="0" y="0">OSS Swallow CPT</tspan></text>
+  <text class="st12" transform="translate(99.6 172.89)"><tspan x="0" y="0">継続事前学習</tspan></text>
+  <text class="st12" transform="translate(217.77 172.89)"><tspan x="0" y="0">(400BT)</tspan></text>
+  <text class="st10" transform="translate(22.5 198.89)"><tspan x="0" y="0">Swallow</tspan></text>
+  <text class="st10" transform="translate(83 198.89)"><tspan x="0" y="0">Corpus</tspan></text>
+  <text class="st10" transform="translate(135.5 198.89)"><tspan x="0" y="0">v</tspan></text>
+  <text class="st10" transform="translate(143.5 198.89)"><tspan x="0" y="0">3</tspan></text>
+  <text class="st10" transform="translate(152.17 198.89)"><tspan x="0" y="0">.</tspan></text>
+  <text class="st10" transform="translate(157 198.89)"><tspan x="0" y="0">2</tspan></text>
+  <text class="st10" transform="translate(165.67 198.89)"><tspan x="0" y="0">,</tspan></text>
+  <text class="st10" transform="translate(175.33 198.89)"><tspan x="0" y="0">English</tspan></text>
+  <text class="st10" transform="translate(228.67 198.89)"><tspan x="0" y="0">Nemotron</tspan></text>
+  <text class="st10" transform="translate(297 198.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st10" transform="translate(303.17 198.89)"><tspan x="0" y="0">CC</tspan></text>
+  <text class="st10" transform="translate(321.83 198.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st10" transform="translate(328 198.89)"><tspan x="0" y="0">HQ</tspan></text>
+  <text class="st10" transform="translate(22.5 223.89)"><tspan x="0" y="0">SwallowCode</tspan></text>
+  <text class="st10" transform="translate(112.33 223.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st10" transform="translate(118.5 223.89)"><tspan x="0" y="0">v</tspan></text>
+  <text class="st10" transform="translate(126.5 223.89)"><tspan x="0" y="0">2</tspan></text>
+  <text class="st10" transform="translate(135.17 223.89)"><tspan x="0" y="0">,</tspan></text>
+  <text class="st10" transform="translate(144.83 223.89)"><tspan x="0" y="0">SwallowMath</tspan></text>
+  <text class="st10" transform="translate(234.33 223.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st10" transform="translate(240.5 223.89)"><tspan x="0" y="0">v</tspan></text>
+  <text class="st10" transform="translate(248.5 223.89)"><tspan x="0" y="0">2</tspan></text>
+  <text class="st10" transform="translate(257.17 223.89)"><tspan x="0" y="0">,</tspan></text>
+  <text class="st10" transform="translate(22.5 248.89)"><tspan x="0" y="0">GPT</tspan></text>
+  <text class="st10" transform="translate(49.83 248.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st10" transform="translate(56 248.89)"><tspan x="0" y="0">OSS</tspan></text>
+  <text class="st10" transform="translate(84.33 248.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st10" transform="translate(90.5 248.89)"><tspan x="0" y="0">LMSYS</tspan></text>
+  <text class="st10" transform="translate(136.5 248.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st10" transform="translate(142.67 248.89)"><tspan x="0" y="0">Chat</tspan></text>
+  <text class="st10" transform="translate(174.17 248.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st10" transform="translate(180.33 248.89)"><tspan x="0" y="0">1</tspan></text>
+  <text class="st10" transform="translate(189 248.89)"><tspan x="0" y="0">M</tspan></text>
+  <text class="st10" transform="translate(200.67 248.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st10" transform="translate(206.83 248.89)"><tspan x="0" y="0">Synth,</tspan></text>
+  <text class="st10" transform="translate(22.5 273.89)"><tspan x="0" y="0">Swallow</tspan></text>
+  <text class="st10" transform="translate(78.17 273.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st10" transform="translate(84.33 273.89)"><tspan x="0" y="0">Nemotron</tspan></text>
+  <text class="st10" transform="translate(152.67 273.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st10" transform="translate(158.83 273.89)"><tspan x="0" y="0">Post</tspan></text>
+  <text class="st10" transform="translate(187.83 273.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st10" transform="translate(194 273.89)"><tspan x="0" y="0">Training</tspan></text>
+  <text class="st10" transform="translate(249.67 273.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st10" transform="translate(255.83 273.89)"><tspan x="0" y="0">Dataset</tspan></text>
+  <text class="st10" transform="translate(308.33 273.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st10" transform="translate(314.5 273.89)"><tspan x="0" y="0">v</tspan></text>
+  <text class="st10" transform="translate(322.5 273.89)"><tspan x="0" y="0">1</tspan></text>
+  <text class="st10" transform="translate(331.17 273.89)"><tspan x="0" y="0">,</tspan></text>
+  <text class="st10" transform="translate(340.83 273.89)"><tspan x="0" y="0">...</tspan></text>
+  <path class="st2" d="M10,361.19c0-12.04,9.76-21.8,21.8-21.8h334.41c12.04,0,21.8,9.76,21.8,21.8v94.41c0,12.04-9.76,21.8-21.8,21.8H31.8c-12.04,0-21.8-9.76-21.8-21.8v-94.41Z"/>
+  <path class="st3" d="M10,355.16c0-8.71,7.06-15.77,15.77-15.77h346.47c8.71,0,15.77,7.06,15.77,15.77v13.47c0,8.71-7.06,15.77-15.77,15.77H25.77c-8.71,0-15.77-7.06-15.77-15.77v-13.47Z"/>
+  <text class="st13" transform="translate(73.94 370.89)"><tspan x="0" y="0">GPT</tspan></text>
+  <text class="st13" transform="translate(119.28 370.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st13" transform="translate(129.28 370.89)"><tspan x="0" y="0">OSS Swallow SFT</tspan></text>
+  <text class="st12" transform="translate(38.47 410.89)"><tspan x="0" y="0">教師ありファインチューニング</tspan></text>
+  <text class="st12" transform="translate(305.97 410.89)"><tspan x="0" y="0">(SFT)</tspan></text>
+  <text class="st10" transform="translate(23.23 436.89)"><tspan x="0" y="0">GPT</tspan></text>
+  <text class="st10" transform="translate(50.56 436.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st10" transform="translate(56.73 436.89)"><tspan x="0" y="0">OSS</tspan></text>
+  <text class="st10" transform="translate(85.06 436.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st10" transform="translate(91.23 436.89)"><tspan x="0" y="0">LMSYS</tspan></text>
+  <text class="st10" transform="translate(137.23 436.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st10" transform="translate(143.4 436.89)"><tspan x="0" y="0">Chat</tspan></text>
+  <text class="st10" transform="translate(174.9 436.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st10" transform="translate(181.06 436.89)"><tspan x="0" y="0">1</tspan></text>
+  <text class="st10" transform="translate(189.73 436.89)"><tspan x="0" y="0">M</tspan></text>
+  <text class="st10" transform="translate(201.4 436.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st10" transform="translate(207.56 436.89)"><tspan x="0" y="0">Synth,</tspan></text>
+  <text class="st10" transform="translate(23.23 461.89)"><tspan x="0" y="0">Swallow</tspan></text>
+  <text class="st10" transform="translate(78.9 461.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st10" transform="translate(85.06 461.89)"><tspan x="0" y="0">Nemotron</tspan></text>
+  <text class="st10" transform="translate(153.4 461.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st10" transform="translate(159.56 461.89)"><tspan x="0" y="0">Post</tspan></text>
+  <text class="st10" transform="translate(188.56 461.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st10" transform="translate(194.73 461.89)"><tspan x="0" y="0">Training</tspan></text>
+  <text class="st10" transform="translate(250.4 461.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st10" transform="translate(256.56 461.89)"><tspan x="0" y="0">Dataset</tspan></text>
+  <text class="st10" transform="translate(309.06 461.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st10" transform="translate(315.23 461.89)"><tspan x="0" y="0">v</tspan></text>
+  <text class="st10" transform="translate(323.23 461.89)"><tspan x="0" y="0">1</tspan></text>
+  <path class="st0" d="M10,547.05c0-13.07,10.59-23.66,23.66-23.66h330.68c13.07,0,23.66,10.59,23.66,23.66v64.68c0,13.07-10.59,23.66-23.66,23.66H33.66c-13.07,0-23.66-10.59-23.66-23.66v-64.68Z"/>
+  <path class="st7" d="M10,539.16c0-8.71,7.06-15.77,15.77-15.77h346.47c8.71,0,15.77,7.06,15.77,15.77v13.47c0,8.71-7.06,15.77-15.77,15.77H25.77c-8.71,0-15.77-7.06-15.77-15.77v-13.47Z"/>
+  <text class="st13" transform="translate(80.62 555.89)"><tspan x="0" y="0">GPT</tspan></text>
+  <text class="st13" transform="translate(125.96 555.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st13" transform="translate(135.96 555.89)"><tspan x="0" y="0">OSS Swallow RL</tspan></text>
+  <text class="st12" transform="translate(30.95 596.89)"><tspan x="0" y="0">検証可能な報酬による強化学習</tspan></text>
+  <text class="st12" transform="translate(298.45 596.89)"><tspan x="0" y="0">(RLVR)</tspan></text>
+  <text class="st10" transform="translate(23.29 622.89)"><tspan x="0" y="0">Dolci</tspan></text>
+  <text class="st10" transform="translate(56.29 622.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st10" transform="translate(62.46 622.89)"><tspan x="0" y="0">Think</tspan></text>
+  <text class="st10" transform="translate(99.79 622.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st10" transform="translate(105.96 622.89)"><tspan x="0" y="0">RL</tspan></text>
+  <text class="st10" transform="translate(123.29 622.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st10" transform="translate(129.46 622.89)"><tspan x="0" y="0">7</tspan></text>
+  <text class="st10" transform="translate(138.12 622.89)"><tspan x="0" y="0">B</tspan></text>
+  <text class="st10" transform="translate(152.46 622.89)"><tspan x="0" y="0">数学サブセット</tspan></text>
+  <path class="st4" d="M180,80.39h8.5v-19h17v19h8.5l-17,17-17-17Z"/>
+  <path class="st8" d="M180,316.39h8.5v-19h17v19h8.5l-17,17-17-17Z"/>
+  <path class="st6" d="M180,501.39h8.5v-19h17v19h8.5l-17,17-17-17Z"/>
+  <rect class="st1" x="10" y="8.39" width="379" height="45"/>
+  <text class="st14" transform="translate(92.11 39.89)"><tspan x="0" y="0">GPT</tspan></text>
+  <text class="st14" transform="translate(137.78 39.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st14" transform="translate(147.45 39.89)"><tspan x="0" y="0">OSS</tspan></text>
+  <text class="st11" transform="translate(199.28 39.89)"><tspan x="0" y="0">(20B, 120B)</tspan></text>
+</svg>

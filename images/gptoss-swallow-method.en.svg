@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 402.46 679.89">
+  <!-- Generator: Adobe Illustrator 29.5.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 141)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #ffe9e7;
+        stroke: #ff8f86;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9 {
+        stroke-width: 2.67px;
+      }
+
+      .st0, .st1, .st2, .st3, .st5, .st7, .st9 {
+        stroke-linejoin: round;
+      }
+
+      .st0, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9 {
+        fill-rule: evenodd;
+      }
+
+      .st10 {
+        fill: #f2f2f2;
+      }
+
+      .st10, .st11, .st12, .st13, .st14, .st15 {
+        isolation: isolate;
+      }
+
+      .st10, .st12, .st14, .st15 {
+        font-family: SegoeUI-Bold, 'Segoe UI';
+        font-weight: 700;
+      }
+
+      .st10, .st15 {
+        font-size: 24px;
+      }
+
+      .st1 {
+        stroke: #b5b5b8;
+      }
+
+      .st1, .st4, .st6, .st8 {
+        fill: #fff;
+      }
+
+      .st2 {
+        fill: #cfc;
+        stroke: #00b050;
+      }
+
+      .st3 {
+        fill: #00b050;
+      }
+
+      .st3, .st8 {
+        stroke: #060;
+      }
+
+      .st4, .st6, .st8 {
+        stroke-miterlimit: 8;
+      }
+
+      .st4, .st9 {
+        stroke: #0071bc;
+      }
+
+      .st11 {
+        font-size: 16px;
+      }
+
+      .st11, .st12, .st14 {
+        fill: #4d4d4d;
+      }
+
+      .st11, .st13 {
+        font-family: SegoeUI, 'Segoe UI';
+      }
+
+      .st5 {
+        fill: #0071bc;
+        stroke: #002c4e;
+      }
+
+      .st12 {
+        font-size: 19px;
+      }
+
+      .st6 {
+        stroke: #a80000;
+      }
+
+      .st7 {
+        fill: #ff5050;
+        stroke: #6c1d1d;
+      }
+
+      .st13, .st14 {
+        font-size: 21px;
+      }
+
+      .st13, .st15 {
+        fill: #333;
+      }
+
+      .st9 {
+        fill: #e2f1fa;
+      }
+    </style>
+  </defs>
+  <path class="st4" d="M181.5,85.39h8.5v-19h17v19h8.5l-17,17-17-17Z"/>
+  <rect class="st1" x="11.5" y="13.39" width="379" height="45"/>
+  <text class="st15" transform="translate(93.61 44.89)"><tspan x="0" y="0">GPT</tspan></text>
+  <text class="st15" transform="translate(139.28 44.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st15" transform="translate(148.95 44.89)"><tspan x="0" y="0">OSS</tspan></text>
+  <text class="st13" transform="translate(200.78 44.89)"><tspan x="0" y="0">(20B, 120B)</tspan></text>
+  <path class="st9" d="M13.5,124.59c0-9.5,7.7-17.2,17.2-17.2h343.61c9.5,0,17.2,7.7,17.2,17.2v153.61c0,9.5-7.7,17.2-17.2,17.2H30.7c-9.5,0-17.2-7.7-17.2-17.2V124.59Z"/>
+  <path class="st5" d="M13.5,122.16c0-8.71,7.06-15.77,15.77-15.77h346.47c8.71,0,15.77,7.06,15.77,15.77v13.47c0,8.71-7.06,15.77-15.77,15.77H29.27c-8.71,0-15.77-7.06-15.77-15.77v-13.47Z"/>
+  <text class="st10" transform="translate(76.92 141.89)"><tspan x="0" y="0">GPT</tspan></text>
+  <text class="st10" transform="translate(122.58 141.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st10" transform="translate(132.25 141.89)"><tspan x="0" y="0">OSS Swallow CPT</tspan></text>
+  <text class="st12" transform="translate(66.79 174.89)"><tspan x="0" y="0">Continual Pre</tspan></text>
+  <text class="st12" transform="translate(186.05 174.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st12" transform="translate(193.55 174.89)"><tspan x="0" y="0">Training</tspan></text>
+  <text class="st12" transform="translate(270.65 174.89)"><tspan x="0" y="0">(400BT)</tspan></text>
+  <text class="st11" transform="translate(25.75 202.89)"><tspan x="0" y="0">Swallow</tspan></text>
+  <text class="st11" transform="translate(86.53 202.89)"><tspan x="0" y="0">Corpus</tspan></text>
+  <text class="st11" transform="translate(140.7 202.89)"><tspan x="0" y="0">v</tspan></text>
+  <text class="st11" transform="translate(148.37 202.89)"><tspan x="0" y="0">3</tspan></text>
+  <text class="st11" transform="translate(157.03 202.89)"><tspan x="0" y="0">.</tspan></text>
+  <text class="st11" transform="translate(160.53 202.89)"><tspan x="0" y="0">2</tspan></text>
+  <text class="st11" transform="translate(169.2 202.89)"><tspan x="0" y="0">,</tspan></text>
+  <text class="st11" transform="translate(177.03 202.89)"><tspan x="0" y="0">English</tspan></text>
+  <text class="st11" transform="translate(231.53 202.89)"><tspan x="0" y="0">Nemotron</tspan></text>
+  <text class="st11" transform="translate(304.15 202.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st11" transform="translate(310.49 202.89)"><tspan x="0" y="0">CC</tspan></text>
+  <text class="st11" transform="translate(329.73 202.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st11" transform="translate(336.06 202.89)"><tspan x="0" y="0">HQ</tspan></text>
+  <text class="st11" transform="translate(25.75 229.89)"><tspan x="0" y="0">SwallowCode</tspan></text>
+  <text class="st11" transform="translate(119.2 229.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st11" transform="translate(125.53 229.89)"><tspan x="0" y="0">v</tspan></text>
+  <text class="st11" transform="translate(133.2 229.89)"><tspan x="0" y="0">2</tspan></text>
+  <text class="st11" transform="translate(141.87 229.89)"><tspan x="0" y="0">,</tspan></text>
+  <text class="st11" transform="translate(149.7 229.89)"><tspan x="0" y="0">SwallowMath</tspan></text>
+  <text class="st11" transform="translate(243.15 229.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st11" transform="translate(249.49 229.89)"><tspan x="0" y="0">v</tspan></text>
+  <text class="st11" transform="translate(257.15 229.89)"><tspan x="0" y="0">2</tspan></text>
+  <text class="st11" transform="translate(265.82 229.89)"><tspan x="0" y="0">,</tspan></text>
+  <text class="st11" transform="translate(25.75 256.89)"><tspan x="0" y="0">GPT</tspan></text>
+  <text class="st11" transform="translate(54.08 256.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st11" transform="translate(60.41 256.89)"><tspan x="0" y="0">OSS</tspan></text>
+  <text class="st11" transform="translate(89.41 256.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st11" transform="translate(95.75 256.89)"><tspan x="0" y="0">LMSYS</tspan></text>
+  <text class="st11" transform="translate(143.2 256.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st11" transform="translate(149.53 256.89)"><tspan x="0" y="0">Chat</tspan></text>
+  <text class="st11" transform="translate(182.03 256.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st11" transform="translate(188.37 256.89)"><tspan x="0" y="0">1</tspan></text>
+  <text class="st11" transform="translate(197.03 256.89)"><tspan x="0" y="0">M</tspan></text>
+  <text class="st11" transform="translate(211.37 256.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st11" transform="translate(217.7 256.89)"><tspan x="0" y="0">Synth,</tspan></text>
+  <text class="st11" transform="translate(25.75 284.89)"><tspan x="0" y="0">Swallow</tspan></text>
+  <text class="st11" transform="translate(82.2 284.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st11" transform="translate(88.53 284.89)"><tspan x="0" y="0">Nemotron</tspan></text>
+  <text class="st11" transform="translate(161.15 284.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st11" transform="translate(167.49 284.89)"><tspan x="0" y="0">Post</tspan></text>
+  <text class="st11" transform="translate(197.56 284.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st11" transform="translate(203.89 284.89)"><tspan x="0" y="0">Training</tspan></text>
+  <text class="st11" transform="translate(259.67 284.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st11" transform="translate(266 284.89)"><tspan x="0" y="0">Dataset</tspan></text>
+  <text class="st11" transform="translate(319.67 284.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st11" transform="translate(326 284.89)"><tspan x="0" y="0">v</tspan></text>
+  <text class="st11" transform="translate(333.67 284.89)"><tspan x="0" y="0">1</tspan></text>
+  <text class="st11" transform="translate(342.33 284.89)"><tspan x="0" y="0">,</tspan></text>
+  <text class="st11" transform="translate(350.17 284.89)"><tspan x="0" y="0">...</tspan></text>
+  <path class="st2" d="M13.5,366.19c0-12.04,9.76-21.8,21.8-21.8h334.41c12.04,0,21.8,9.76,21.8,21.8v94.41c0,12.04-9.76,21.8-21.8,21.8H35.3c-12.04,0-21.8-9.76-21.8-21.8v-94.41Z"/>
+  <path class="st3" d="M13.5,360.16c0-8.71,7.06-15.77,15.77-15.77h346.47c8.71,0,15.77,7.06,15.77,15.77v13.47c0,8.71-7.06,15.77-15.77,15.77H29.27c-8.71,0-15.77-7.06-15.77-15.77v-13.47Z"/>
+  <text class="st10" transform="translate(78.69 378.89)"><tspan x="0" y="0">GPT</tspan></text>
+  <text class="st10" transform="translate(124.36 378.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st10" transform="translate(134.03 378.89)"><tspan x="0" y="0">OSS Swallow SFT</tspan></text>
+  <text class="st14" transform="translate(56.82 416.89)"><tspan x="0" y="0">Supervised Fine</tspan></text>
+  <text class="st14" transform="translate(214.5 416.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st14" transform="translate(223.17 416.89)"><tspan x="0" y="0">Tuning</tspan></text>
+  <text class="st14" transform="translate(297.7 416.89)"><tspan x="0" y="0">(SFT)</tspan></text>
+  <text class="st11" transform="translate(26.48 444.89)"><tspan x="0" y="0">GPT</tspan></text>
+  <text class="st11" transform="translate(54.81 444.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st11" transform="translate(61.14 444.89)"><tspan x="0" y="0">OSS</tspan></text>
+  <text class="st11" transform="translate(90.14 444.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st11" transform="translate(96.48 444.89)"><tspan x="0" y="0">LMSYS</tspan></text>
+  <text class="st11" transform="translate(143.93 444.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st11" transform="translate(150.26 444.89)"><tspan x="0" y="0">Chat</tspan></text>
+  <text class="st11" transform="translate(182.76 444.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st11" transform="translate(189.1 444.89)"><tspan x="0" y="0">1</tspan></text>
+  <text class="st11" transform="translate(197.76 444.89)"><tspan x="0" y="0">M</tspan></text>
+  <text class="st11" transform="translate(212.1 444.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st11" transform="translate(218.43 444.89)"><tspan x="0" y="0">Synth,</tspan></text>
+  <text class="st11" transform="translate(26.48 471.89)"><tspan x="0" y="0">Swallow</tspan></text>
+  <text class="st11" transform="translate(82.93 471.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st11" transform="translate(89.26 471.89)"><tspan x="0" y="0">Nemotron</tspan></text>
+  <text class="st11" transform="translate(161.88 471.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st11" transform="translate(168.22 471.89)"><tspan x="0" y="0">Post</tspan></text>
+  <text class="st11" transform="translate(198.29 471.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st11" transform="translate(204.62 471.89)"><tspan x="0" y="0">Training</tspan></text>
+  <text class="st11" transform="translate(260.4 471.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st11" transform="translate(266.73 471.89)"><tspan x="0" y="0">Dataset</tspan></text>
+  <text class="st11" transform="translate(320.4 471.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st11" transform="translate(326.73 471.89)"><tspan x="0" y="0">v</tspan></text>
+  <text class="st11" transform="translate(334.4 471.89)"><tspan x="0" y="0">1</tspan></text>
+  <path class="st0" d="M13.5,539.66c0-6.22,5.04-11.27,11.27-11.27h355.47c6.22,0,11.27,5.04,11.27,11.27v115.47c0,6.22-5.04,11.27-11.27,11.27H24.77c-6.22,0-11.27-5.04-11.27-11.27v-115.47Z"/>
+  <path class="st7" d="M13.5,544.16c0-8.71,7.06-15.77,15.77-15.77h346.47c8.71,0,15.77,7.06,15.77,15.77v13.47c0,8.71-7.06,15.77-15.77,15.77H29.27c-8.71,0-15.77-7.06-15.77-15.77v-13.47Z"/>
+  <text class="st10" transform="translate(84.9 563.89)"><tspan x="0" y="0">GPT</tspan></text>
+  <text class="st10" transform="translate(130.57 563.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st10" transform="translate(140.23 563.89)"><tspan x="0" y="0">OSS Swallow RL</tspan></text>
+  <text class="st14" transform="translate(54.72 602.89)"><tspan x="0" y="0">Reinforcement Learning with</tspan></text>
+  <text class="st14" transform="translate(70.5 627.89)"><tspan x="0" y="0">Verifiable Rewards (RLVR)</tspan></text>
+  <text class="st11" transform="translate(23.27 656.89)"><tspan x="0" y="0">Dolci</tspan></text>
+  <text class="st11" transform="translate(58.77 656.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st11" transform="translate(65.1 656.89)"><tspan x="0" y="0">Think</tspan></text>
+  <text class="st11" transform="translate(103.27 656.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st11" transform="translate(109.6 656.89)"><tspan x="0" y="0">RL</tspan></text>
+  <text class="st11" transform="translate(126.6 656.89)"><tspan x="0" y="0">-</tspan></text>
+  <text class="st11" transform="translate(132.93 656.89)"><tspan x="0" y="0">7</tspan></text>
+  <text class="st11" transform="translate(141.6 656.89)"><tspan x="0" y="0">B</tspan></text>
+  <text class="st11" transform="translate(155.1 656.89)"><tspan x="0" y="0">Mathematics</tspan></text>
+  <text class="st11" transform="translate(250.27 656.89)"><tspan x="0" y="0">subset</tspan></text>
+  <path class="st8" d="M183.5,321.39h8.5v-19h17v19h8.5l-17,17-17-17Z"/>
+  <path class="st6" d="M183.5,506.39h8.5v-19h17v19h8.5l-17,17-17-17Z"/>
+</svg>
